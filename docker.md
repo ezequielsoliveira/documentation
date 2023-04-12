@@ -14,4 +14,5 @@
   - ```docker rm {IMAGE_NAME}```
 - Executar imagem criada pelo id
   - ```docker run -i -t {CONTAINER_ID} /bin/bash```
-
+- Excluir todos os contêineres, redes, imagens não utilizados e volumes.
+  - ```docker system prune -a --volumes --force```
